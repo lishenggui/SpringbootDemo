@@ -1,4 +1,4 @@
-package com.neko.seed.auth.service;
+package com.seed.auth.service;
 
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jws;

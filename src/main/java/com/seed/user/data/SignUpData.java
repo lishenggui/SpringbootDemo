@@ -1,4 +1,4 @@
-package com.neko.seed.user.data;
+package com.seed.user.data;
 
 import lombok.Data;
 import lombok.experimental.Accessors;

@@ -1,7 +1,7 @@
-package com.neko.seed.auth.service.impl;
+package com.seed.auth.service.impl;
 
-import com.neko.seed.auth.service.TokenService;
-import com.neko.seed.auth.exception.TokenException;
+import com.seed.auth.service.TokenService;
+import com.seed.auth.exception.TokenException;
 import io.jsonwebtoken.*;
 import org.springframework.stereotype.Service;
 

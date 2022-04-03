@@ -1,4 +1,4 @@
-package com.neko.seed.base.entity;
+package com.seed.base.entity;
 
 import lombok.Getter;
 

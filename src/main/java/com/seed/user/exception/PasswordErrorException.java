@@ -1,6 +1,6 @@
-package com.neko.seed.user.exception;
+package com.seed.user.exception;
 
-import com.neko.seed.base.exception.ServiceException;
+import com.seed.base.exception.ServiceException;
 
 public class PasswordErrorException extends ServiceException {
     public PasswordErrorException() {

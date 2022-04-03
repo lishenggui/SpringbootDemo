@@ -1,4 +1,4 @@
-package com.neko.seed.base.exception;
+package com.seed.base.exception;
 
 import lombok.Getter;
 

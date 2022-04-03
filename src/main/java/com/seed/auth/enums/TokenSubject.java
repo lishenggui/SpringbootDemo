@@ -1,4 +1,4 @@
-package com.neko.seed.auth.enums;
+package com.seed.auth.enums;
 
 /**
  * Auth模块Token类型枚举

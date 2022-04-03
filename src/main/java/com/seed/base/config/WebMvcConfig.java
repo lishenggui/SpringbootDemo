@@ -1,4 +1,4 @@
-package com.neko.seed.base.config;
+package com.seed.base.config;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Configuration;

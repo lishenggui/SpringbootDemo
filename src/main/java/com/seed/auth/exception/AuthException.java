@@ -1,6 +1,6 @@
-package com.neko.seed.auth.exception;
+package com.seed.auth.exception;
 
-import com.neko.seed.base.exception.ServiceException;
+import com.seed.base.exception.ServiceException;
 
 /**
  * 认证异常

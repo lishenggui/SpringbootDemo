@@ -1,7 +1,7 @@
-package com.neko.seed.base.handler;
+package com.seed.base.handler;
 
-import com.neko.seed.base.entity.Result;
-import com.neko.seed.base.exception.ServiceException;
+import com.seed.base.entity.Result;
+import com.seed.base.exception.ServiceException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.http.converter.HttpMessageNotReadableException;

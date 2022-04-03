@@ -1,6 +1,6 @@
-package com.neko.seed.auth.config;
+package com.seed.auth.config;
 
-import com.neko.seed.auth.annotation.resolver.AuthMethodArgumentResolver;
+import com.seed.auth.annotation.resolver.AuthMethodArgumentResolver;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.method.support.HandlerMethodArgumentResolver;

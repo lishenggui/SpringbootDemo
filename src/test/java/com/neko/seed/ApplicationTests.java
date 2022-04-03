@@ -1,4 +1,4 @@
-package com.neko.seed;
+package com.seed;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

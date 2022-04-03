@@ -1,10 +1,10 @@
-package com.neko.seed.user.controller;
+package com.seed.user.controller;
 
-import com.neko.seed.auth.annotation.Auth;
-import com.neko.seed.base.entity.Result;
-import com.neko.seed.user.data.SignInData;
-import com.neko.seed.user.data.SignUpData;
-import com.neko.seed.user.service.UserService;
+import com.seed.auth.annotation.Auth;
+import com.seed.base.entity.Result;
+import com.seed.user.data.SignInData;
+import com.seed.user.data.SignUpData;
+import com.seed.user.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;

@@ -1,7 +1,5 @@
-package com.neko.seed.user.entity;
+package com.seed.user.entity;
 
-import com.baomidou.mybatisplus.annotation.IdType;
-import com.baomidou.mybatisplus.annotation.TableId;
 import lombok.Data;
 import lombok.experimental.Accessors;
 

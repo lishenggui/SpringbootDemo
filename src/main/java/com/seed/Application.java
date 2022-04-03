@@ -1,4 +1,4 @@
-package com.neko.seed;
+package com.seed;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

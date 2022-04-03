@@ -1,4 +1,4 @@
-package com.neko.seed.auth.exception;
+package com.seed.auth.exception;
 
 /**
  * Token异常

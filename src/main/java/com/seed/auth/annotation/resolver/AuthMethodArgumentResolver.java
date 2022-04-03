@@ -1,11 +1,11 @@
-package com.neko.seed.auth.annotation.resolver;
+package com.seed.auth.annotation.resolver;
 
-import com.neko.seed.auth.annotation.Auth;
-import com.neko.seed.auth.enums.TokenSubject;
-import com.neko.seed.auth.exception.AuthException;
-import com.neko.seed.auth.exception.TokenException;
-import com.neko.seed.auth.exception.UnauthorizedException;
-import com.neko.seed.auth.service.TokenService;
+import com.seed.auth.annotation.Auth;
+import com.seed.auth.enums.TokenSubject;
+import com.seed.auth.exception.AuthException;
+import com.seed.auth.exception.TokenException;
+import com.seed.auth.exception.UnauthorizedException;
+import com.seed.auth.service.TokenService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.MethodParameter;
 import org.springframework.web.bind.support.WebDataBinderFactory;

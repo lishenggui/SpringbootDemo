@@ -16,7 +16,7 @@ public class CodeGenerator {
     private static String DATABASE = "seed";
     private static String DATABASE_USERNAME = "root";
     private static String DATABASE_PASSWORD = "root";
-    private static String PROJECT = "com.neko.seed";
+    private static String PROJECT = "com.seed";
 
     /**
      * <p>
