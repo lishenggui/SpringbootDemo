@@ -12,7 +12,7 @@ import com.baomidou.mybatisplus.generator.engine.FreemarkerTemplateEngine;
 
 public class CodeGenerator {
 
-    private static String AUTHOR = "Li Jinhui";
+    private static String AUTHOR = "lishenggui";
     private static String DATABASE = "seed";
     private static String DATABASE_USERNAME = "root";
     private static String DATABASE_PASSWORD = "root";

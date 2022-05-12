@@ -5,7 +5,7 @@ import lombok.Getter;
 /**
  * 服务异常类
  *
- * @author Li Jinhui
+ * @author lishenggui
  * @update 2018/12/28 10:45
  * @since 2018/12/6 10:00
  */

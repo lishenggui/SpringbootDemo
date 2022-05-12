@@ -6,6 +6,7 @@ import com.seed.user.data.SignInData;
 import com.seed.user.data.SignUpData;
 import com.seed.user.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.ui.Model;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 
@@ -55,8 +56,8 @@ public class UserController {
      * 查看用户列表
      */
     @GetMapping("/list")
-    public Result list(@Auth Long userId) {
-        // 该接口需要检测用户是否登陆
-        return new Result().success(userService.list());
+    public String list(Model model) {
+        model.addAttribute("users",userService.list());
+        return "list";
     }
 }

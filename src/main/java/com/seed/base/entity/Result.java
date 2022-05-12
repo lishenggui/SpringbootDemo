@@ -5,7 +5,7 @@ import lombok.Getter;
 /**
  * 返回结果实体类
  *
- * @author Li Jinhui
+ * @author lishenggui
  * @update 2019/1/7
  * @since 2018/12/6
  */

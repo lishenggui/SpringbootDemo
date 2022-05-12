@@ -11,7 +11,7 @@ import java.util.List;
 /**
  * WebMvc配置添加Auth注解解析器
  *
- * @author: Li Jinhui
+ * @author: lishenggui
  * @since: 2018/12/04 11:00
  **/
 @Configuration

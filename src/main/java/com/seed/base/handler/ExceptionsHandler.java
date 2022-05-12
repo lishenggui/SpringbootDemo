@@ -17,7 +17,7 @@ import org.springframework.web.servlet.NoHandlerFoundException;
 /**
  * 全局异常接管
  *
- * @author Li Jinhui
+ * @author lishenggui
  * @update 2019/1/7 09:22
  * @since 2018/12/6 10:00
  */

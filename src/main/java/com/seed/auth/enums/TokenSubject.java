@@ -3,7 +3,7 @@ package com.seed.auth.enums;
 /**
  * Auth模块Token类型枚举
  *
- * @author Li Jinhui
+ * @author lishenggui
  * @since 2018/12/7
  */
 public enum TokenSubject {

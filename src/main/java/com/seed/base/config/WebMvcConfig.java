@@ -1,6 +1,5 @@
 package com.seed.base.config;
 
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.CorsRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
@@ -8,7 +7,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 /**
  * WebMvc配置
  *
- * @author Li Jinhui
+ * @author lishenggui
  * @update 2018-12-28 10:41
  * @since 2018-12-04 11:00
  **/

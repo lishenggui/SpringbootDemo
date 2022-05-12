@@ -10,11 +10,18 @@ spring:
       enabled: true
   mvc:
     throw-exception-if-no-handler-found: true     # 接口404时抛出异常
-  resources:
-    add-mappings: false
+    static-path-pattern: /static/**
+#  resources:
+#    static-locations: classpath:/static/
+  thymeleaf:
+    prefix: classpath:/templates/
+    enabled: true
+    encoding: UTF-8
+    cache: false  #是否使用缓存
+    mode: HTML  #严格的HTML语法模式
+    suffix: .html  #后缀名
 
 server:
-  servlet:
-    context-path: /v1     # 应用路径，可以通过设置路径来控制版本
   tomcat:
     uri-encoding: UTF-8
+

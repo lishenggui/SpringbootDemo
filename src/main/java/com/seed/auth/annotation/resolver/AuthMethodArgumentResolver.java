@@ -16,7 +16,7 @@ import org.springframework.web.method.support.ModelAndViewContainer;
 /**
  * 认证注解参数解析器
  *
- * @author Li Jinhui
+ * @author lishenggui
  * @since 2018/12/7
  */
 public class AuthMethodArgumentResolver implements HandlerMethodArgumentResolver {
