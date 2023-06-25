@@ -7,16 +7,25 @@ spring:
   datasource:
     druid:
       driver-class-name: com.mysql.cj.jdbc.Driver     # 数据库驱动
-      url: jdbc:mysql://120.48.19.154:3306/seed?serverTimezone=Asia/Shanghai&characterEncoding=utf8&useUnicode=true&useSSL=false     # 数据库链接
+      url: jdbc:mysql://43.143.4.208:3306/seed?serverTimezone=Asia/Shanghai&characterEncoding=utf8&useUnicode=true&useSSL=false     # 数据库链接
       username: root     # 数据库账号
-      password: 123456     # 数据库密码
+      password: root     # 数据库密码
   devtools:
     restart:
       enabled: true     # 开启热更新
+  data:
+    mongodb:
+      host: 43.143.4.208 #指定MongoDB服务地址
+      port: 27017 #指定端口，默认就为27017
+      database: article
+      authentication-database: admin # 登录认证的逻辑库名
+#      username: admin #用户名
+#      password: abc123456 #密码
 
 rocketmq:
   # 多个用;隔开
-  name-server: 120.48.19.154:9876;120.48.19.154:9877
+#  name-server: 120.48.19.154:9876;120.48.19.154:9877
+  name-server: 192.168.107.138:9876
   producer:
     # 生产组
     group: demo-group
@@ -26,3 +35,6 @@ rocketmq:
     retryTimesWhenSendFailed: 2
     # 发送异步消息失败重试次数，默认2
     retryTimesWhenSendAsyncFailed: 2
+
+swagger:
+  enabled: true
