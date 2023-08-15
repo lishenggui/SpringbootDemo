@@ -27,6 +27,13 @@ public class MqProduct {
         return "ok";
     }
 
+    @GetMapping("/send2")
+    @ApiOperation("简单发送2")
+    public String send2(@RequestParam("message") String message) {
+        rocketMQTemplate.convertAndSend("topic-demo:tag-demo2", "你好,Java发送内容为：" + message);
+        return "ok";
+    }
+
     @GetMapping("/sendOrder")
     @ApiOperation("顺序消息")
     public String sendOrder() {

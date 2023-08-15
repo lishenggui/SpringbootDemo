@@ -10,6 +10,17 @@ spring:
       url: jdbc:mysql://43.143.4.208:3306/seed?serverTimezone=Asia/Shanghai&characterEncoding=utf8&useUnicode=true&useSSL=false     # 数据库链接
       username: root     # 数据库账号
       password: root     # 数据库密码
+  redis:
+    host: ioc-redis
+    port: 16379
+    password: R123oo456T      # 密码（默认为空）
+    timeout: 6000ms  # 连接超时时长（毫秒）
+    lettuce:
+      pool:
+        max-active: 1000  # 连接池最大连接数（使用负值表示没有限制）
+        max-wait: -1ms      # 连接池最大阻塞等待时间（使用负值表示没有限制）
+        max-idle: 10      # 连接池中的最大空闲连接
+        min-idle: 5       # 连接池中的最小空闲连接
   devtools:
     restart:
       enabled: true     # 开启热更新
@@ -25,7 +36,7 @@ spring:
 rocketmq:
   # 多个用;隔开
 #  name-server: 120.48.19.154:9876;120.48.19.154:9877
-  name-server: 192.168.107.138:9876
+  name-server: 192.168.133.56:9876
   producer:
     # 生产组
     group: demo-group
