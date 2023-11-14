@@ -13,11 +13,8 @@ public class SpringTaskTest {
         taskScheduler.setPoolSize(30);
         System.out.println(taskScheduler);
 
-        taskScheduler.schedule(new Runnable() {
-            @Override
-            public void run() {
+        taskScheduler.schedule(()->{
                 System.out.println("sssss");
-            }
         },new CronTrigger("0/1 * * * * *"));//这串字符串是cron表达式 代表每隔5秒执行一次
     }
 

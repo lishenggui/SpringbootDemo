@@ -1,0 +1,2 @@
+1.redis zset定时任务，将当前时间+延迟时间存到score中，定时扫描，用rangebyscore获取0，当前时间的所有zset的值，就是定时需要执行热任务集合，https://www.xjx100.cn/news/287059.html?action=onClick
+2.xxl-job

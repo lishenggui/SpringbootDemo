@@ -153,6 +153,12 @@
 			<artifactId>redisson-spring-data-21</artifactId>
 			<version>3.14.0</version>
 		</dependency>
+
+		<!--rabbitmq-->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-amqp</artifactId>
+		</dependency>
 	</dependencies>
 
 	<build>

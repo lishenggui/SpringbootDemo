@@ -1,0 +1,5 @@
+1.rabbitmq 延期ttl消息过期发送到死信队列实现延迟队列
+2.rocketmq 固定频率的延迟队列
+3.redis zset定时任务，将当前时间+延迟时间存到score中，定时扫描，用rangebyscore获取0，
+当前时间的所有zset的值，就是延迟任务集合
+4.DelayQueue jdk自带的延迟队列
